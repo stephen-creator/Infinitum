@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Volunteer - Infinitum</title>
+  
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCKnyyKHH7W4U7ZclMlfRHGRjjALpERmxY&callback=initMap" async defer></script>
+  <script defer src = "volunteer.js"></script>
+  
+
+</head>
+
+<body>
+  <div id="nav_bar">
+    <div id="left_nav">
+      <div class="nav"><a href= "index.html"><img id="logo" src="https://cdn.glitch.global/cf9927ed-e03d-498e-b84a-1162710de065/infinitum.jpg?v=1660663554710"></a></div>
+      <div id="infinitum" class="nav"><a class="link" href= "index.html"><h3>Infinitum</h3></a></div>
+    </div>
+    
+    <div id="middle_nav">
+      <div class="nav"><a class="link" href="index.html">Home</a></div>
+      <div class="nav"><a class="link" href="educate.html">Educate</a></div>
+      <div class="nav"><a class="link" href="blog.html">Blog</a></div>
+      <div class="nav"><a class="link" href="volunteer.html">Volunteer</a></div>
+    </div>
+    
+    <div id="right_nav">
+      
+      <div class="nav"><a class="link" href="aboutUs.html">About Us</a></div> 
+    </div>
+    
+  </div>
+
+
+  
+  
+    <div id ="SearchBar"> 
+<!-- Search input -->
+<input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+</div>
+      
+      
+      
+<!-- Google map -->
+<div id="map"></div>
+
+
+<div id="locationDiv">
+    <div id = "displayedInfo">
+      <!-- Display geolocation data -->
+      <ul class="geo-data">
+          <li>Full Address: <span id="location"></span></li>
+          <li>Postal Code: <span id="postal_code"></span></li>
+          <li>Country: <span id="country"></span></li>
+      <!--     <li>Latitude: <span id="lat"></span></li>
+          <li>Longitude: <span id="lon"></span></li> -->
+      </ul>
+    </div>
+</div>
+
+
+
+
+<!-- <script src = "volunteer.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCKnyyKHH7W4U7ZclMlfRHGRjjALpERmxY&callback=initMap" async defer></script>
+ -->
+ 
+  
+<!--   <div id = "volunteer" >
+    <div id = "volunteerImg" > <img src= "https://cdn.glitch.global/cf9927ed-e03d-498e-b84a-1162710de065/fe8f0e5c-8aa5-42cc-bfa7-af6cecf126f8.image.png?v=1660702542977"/> </div>
+    <div id ="volunteerText"> <h1> Find a Place toVolunteer Using Our Google Maps API</h1> </div>
+  </div> -->
+ 
+  
+ 
+</body>
+
+</html>

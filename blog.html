@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Blog - Infinitum</title>
+</head>
+
+<body>
+  <div id="nav_bar">
+    <div id="left_nav">
+      <div class="nav"><a href= "index.html"><img id="logo" src="https://cdn.glitch.global/cf9927ed-e03d-498e-b84a-1162710de065/infinitum.jpg?v=1660663554710"></a></div>
+      <div id="infinitum" class="nav"><a class="link" href= "index.html"><h3>Infinitum</h3></a></div>
+    </div>
+    
+    <div id="middle_nav">
+      <div class="nav"><a class="link" href="index.html">Home</a></div>
+      <div class="nav"><a class="link" href="educate.html">Educate</a></div>
+      <div class="nav"><a class="link" href="blog.html">Blog</a></div>
+      <div class="nav"><a class="link" href="volunteer.html">Volunteer</a></div>
+    </div>
+    
+    <div id="right_nav">
+      
+      <div class="nav"><a class="link" href="aboutUs.html">About Us</a></div> 
+    </div>
+    
+  </div>
+  
+  <h1 id="blog_heading">Create Your Post Here!</h1>
+  <div id="inputDiv">
+    
+    <form id="inputs">
+      
+      <div id="inputContent" class="userInput">
+        <h1 class="blog_header">Name</h1>
+        <input id="NameInput" type="text" />
+      
+        <h1 class="blog_header">Subject</h1>
+        <input id="subjectInput" type="text" />
+      
+        <h1 class="blog_header">Title</h1>
+        <input id="titleInput" type="text" />
+      
+        
+      </div>
+      
+      <div class="userInput">
+        <h1 class="blog_header">Content</h1>
+        <input id="contentInput" type="text" />
+        <br>
+        
+        <div id="submitDiv">
+           <button id="submitBtn">Submit</button>
+        </div>
+       
+      </div>
+        
+      </form>
+    
+  </div>
+    
+     
+  
+    <div id ="holder">
+
+    </div>
+        
+    
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="blog.js"></script>
+  </body>
+  
+
+
+</html>

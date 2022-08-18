@@ -1,0 +1,679 @@
+#nav_bar{
+    background-color: #407a4f;
+    display:flex;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .nav{
+    margin:10px;
+    margin-right: 50px;
+    font-size: 20px;
+    color:white;
+  }
+  
+  #left_nav{
+    display:flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-left: 0px;
+  
+  }
+  
+  #middle_nav{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  #right_nav{
+    display:flex;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center; 
+    
+  }
+  #logo{
+    width:100px;
+    height: 100px;
+    opacity:0.5;
+  }
+  
+  .link{
+      color: white;
+      font-weight: bold;
+  }
+  
+  .link:hover{
+      color: black;
+      text-decoration: none;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  #infinitum {
+    margin:auto;
+    margin-right: 50px;
+  }
+  
+  h3{
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Homepage CSS */
+  #top_section{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  #intro{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #intro_img{
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  
+  .about{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  #top_header{
+    font-size: 30px;
+  }
+  
+  h1{
+    font-size: 80px;
+  }
+  
+  
+  #educate_section{
+    background-color: #2B2B2B;
+  }
+  
+  #educateInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  
+  #educate_gif{
+    width:40%;
+    margin: none;
+    padding: none;
+  }
+  
+  #educate_header{
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  
+  
+  #educateLink{
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  
+  #blog_section{
+    display:flex;
+    background-color: #407a4f;
+  }
+  
+  #blog_gif{
+    width:800px;
+  }
+  
+  #blog_info{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width:600px;
+  }
+  
+  #blog_paragraph{
+    font-size: 30px;
+    margin-top: auto;
+  }
+  
+  h2{
+    font-size: 70px;
+  }
+  
+  #volunteer_section{
+    display: flex;
+    justify-content: center
+  }
+  
+  #volunteerContent{
+     display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  #volunteer_header{
+    font-size :30px;
+    margin-top: 2px;
+  }
+  
+  #volunteer_gif{
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  
+  #volunteer_link{
+    color: black;
+  }
+  
+  #link_div{
+    margin-top: 1px;
+  }
+  
+  .learnMore{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  /* Blog css */
+  
+  #blog_heading{
+    font-size:50px;
+    margin-left: 20px;
+  }
+  
+  #inputs{
+    display:flex;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  
+  #NameInput{
+    width:80%;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #subjectInput{
+    width:80%;
+    padding:12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #titleInput{
+    width:80%;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+  
+  #contentInput{
+    width:100%;
+    height:60%;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  
+  #submitBtn{
+      background-color:  #9cba91;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;   
+  }
+  .section{
+      border: solid  #9cba91;
+      padding: 20px;
+      margin:20px;
+      
+  
+  }
+  .blog_header{
+    font-size: 30px;
+  }
+  
+  #inputDiv{
+    border-radius: 20px;
+    background-color: #407a4f;
+    padding-bottom: 20px;
+    color: white;
+  }
+  
+  .userInput{
+    width:45%
+  }
+  
+  #submitDiv{
+    display:flex;
+    justify-content:center
+  }
+  
+  
+  
+  /*The Education and Article section*/
+  #bigDiv{
+    display:flex;
+    width:30px;
+    height:40px;
+    padding-top: 20px;
+  
+    padding-bottom: 100px;
+  }
+  
+  label{
+      padding-right:10px;
+  }
+  
+  #Optionsbutton{
+  
+  background-color: #9cba91;
+  color:white;
+  border: none;
+  margin-left:5px;
+  
+  }
+  
+  #educate_title{
+    font-size: 30px;
+  }
+  
+  
+  #topics{
+    width: 900px;
+  }
+  
+  #linkContainer{
+    border-color: soild #407a4f;
+    display:flex;
+  }
+  
+  
+  .articleDiv{
+    border: 1px #c2c2c2 solid;
+    border-radius: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    height: 40%;
+    padding: 10px;
+    background-color: #407a4f;
+    color: white;
+  }
+  
+  
+  .articleHeading{
+    font-size: 40px;
+    text-align: center;
+  }
+    
+  .articleLink{
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+    
+  
+  /*google maps css */
+  #searchInput{
+    width: 95%;
+    height: 50px;
+  }
+  
+  #SearchBar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #displayedInfo{
+    font-size:30px;
+    background-color: #407a4f;
+    color: white;
+    border-radius:25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 60%
+  }
+  
+  #locationDiv{
+    display:flex;
+    justify-content: center;
+  }
+  
+  li{
+    font-size: 20px;
+  }
+  #volunteer{
+    display:flex;
+  }
+  #volunteerImg{
+    width:800px;
+    height: 800px;
+  }
+  
+  
+  /* aboutUs CSS */
+  
+  #mission{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    width: 95%;
+    background: #407a4f;
+    margin-top:40px;
+    border-radius: 25px;
+    color: white; 
+    padding-left:3px;
+    padding: 5px;
+  }
+  
+  #ourMission{
+    margin-bottom:5px;
+    font-size: 50px;
+    margin-top: 20px;
+   
+  }
+  #missionParagraph{
+    margin-top:20px;
+    font-size:20px;
+  }
+  
+  #teamImage{
+    display:flex;
+    justify-content: center;
+  }
+  
+  #TeamImg{
+    width:1400px;
+   margin: 20px; 
+  }
+  /* responsive design */
+  
+  @media(max-width: 415px){
+  /*   div{
+      border: 1px solid black;
+    } */
+    #nav_bar{
+      display:flex;
+      margin: auto;
+      width: 390px;
+      margin-left: 2px;
+    }
+  
+    .nav{
+      font-size: 12px;
+      color:white;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    
+    #logo{
+      width:20px;
+      height:20px;
+    }
+    
+    #left_nav{
+      display:flex;
+      justify-content: flex-start;
+      margin-right: 10px;
+      width: 100px;
+    }
+    
+    #middle_nav{
+      justify-content: flex-start;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    
+    #right_nav{
+      justify-content: flex-end;
+      margin-left: 2px;
+      margin-right: 2px;
+  
+    }
+    
+    #websiteName{
+      font-size: 15px;
+      margin-right: 1px;
+    }
+    
+    
+    section{
+      display:flex;
+      flex-direction: column;
+      width: 390px;
+      margin-left: none;
+    }
+    
+    h1{
+      font-size: 20px;
+    }
+    
+    #top_header{
+      font-size: 15px;
+    }
+    
+    #top_section{
+      display:flex;
+      margin-left: 5px;
+      margin-top: 5px;
+      justify-content: center;
+    }
+    
+    img{
+      width: 300px;
+    }
+    
+    #intro_img{
+      display:flex;
+      justify-content: center;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+  
+    #educate_gif{
+    width:300px;
+    margin: none;
+    padding: none;
+  }
+    
+    
+    
+    h3{
+      font-size: 15px;
+    }
+  
+    
+    #blog_gif{
+      width: 300px;
+      display:flex;
+      justify-content: center;
+    }
+    
+    #blog_info{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    width: 390px;
+  }
+    
+    h2{
+      font-size: 20px;
+      margin-left: 2px;
+      text-align:center;
+    }
+    
+    
+    #blog_paragraph{
+      font-size: 15px;
+    }
+    
+    
+    
+    #volunteer_header{
+      font-size: 15px;
+      text-align:center;
+    }
+    
+    #volunteer_gif{
+      width: 300px;
+      
+    } 
+    
+    
+    #bigDiv{
+      width: 390px;
+    }
+    
+    
+    .articleDiv{
+    border: 1px #c2c2c2 solid;
+    border-radius: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 75%;
+    height: 40%;
+    padding: 10px;
+    background-color: #407a4f;
+    color: white;
+  }
+    
+    #linkContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 390px;
+  }
+  
+  
+  .articleHeading{
+    font-size: 20px;
+    text-align: center;
+  }
+    
+  .articleLink{
+    text-align: center;
+    color: white;
+    margin: 15px;
+  }
+    
+    
+    #blog_heading{
+      font-size: 25px;
+      text-align:center;
+    }
+    
+    .blog_header{
+      font-size: 15px;
+    }
+    
+    
+    li{
+    font-size: 15px;
+  }
+    
+    #displayedInfo{
+      width: 75%;
+      
+    }
+    #holder{
+       word-wrap:break-word;
+    }
+   
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* The back to top*/
+  #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: #9cba91; /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    
+    #myBtn:hover {
+      background-color: #555; /* Add a dark-grey background on hover */
+    }
